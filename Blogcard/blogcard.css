@@ -1,11 +1,13 @@
 body{
 display: flex;
-/* width: 1440px;
-height: 960px; */
 justify-content: center;
 align-items: center;
 background: var(--color-yellow, #F4D04E);
-height: 100vh;  
+height: 100vh;
+ font-family: "Figtree", sans-serif;
+  font-optical-sizing: auto;
+
+  font-style: normal; 
 
 }
 
@@ -90,6 +92,7 @@ font-family: Figtree;
 font-size: var(--font-size-text-preset-3, 14px);
 font-style: normal;
 font-weight: 800;
-line-height: 150%; 
+line-height: 150%;
+
 
 }
